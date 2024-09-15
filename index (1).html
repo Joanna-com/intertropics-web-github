@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INTERTROPICS Security Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2f2d2d;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 99;
+            overflow: auto;
+         
+        }
+
+        header h1 {
+            margin: 0;
+            width: 100%;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #242424;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            left: 0;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 10px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #ffb84d;
+        }
+
+        .content {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ffb84d;
+            border-bottom: 2px solid #ffb84d;
+            padding-bottom: 10px;
+        }
+
+        .service-section, .training-section, .contact-section, .career-section {
+            margin-bottom: 40px;
+        }
+
+        .service-section p, .training-section p {
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #1a1a1a;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .slideshow-container {
+            max-width: 1000px;
+            position: relative;
+            margin: auto;
+            transition: .7s;
+        }
+
+        .slides {
+            display: none;
+          
+           
+        }
+        .slides h2{
+            width:100%;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            color: white;
+        }
+
+        img {
+            vertical-align: middle;
+            width: 100%;
+            height: 500px;
+            object-fit: cover;
+           
+        }
+
+        .contact-section {
+            margin-top: 20px;
+       
+        }
+
+        iframe {
+            width: 100%;
+            height: 300px;
+        }
+
+        /* Contact Form */
+        .contact-form, .application-form {
+            margin-top: 20px;
+        }
+      
+
+        .contact-form label, .application-form label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+
+        .contact-form input, .contact-form textarea, .application-form input, .application-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .contact-form button, .application-form button {
+            background-color: #ffb84d;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .contact-form button:hover, .application-form button:hover {
+            background-color: #ffa500;
+        }
+
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            padding: 16px;
+            margin-top: -22px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            transition: 0.6s ease;
+            border-radius: 0 3px 3px 0;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 3px 0 0 3px;
+        }
+
+        .requirements ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .requirements li {
+            background: #333;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        #logo{
+            width: 70px;
+            height: 70px;
+            border-radius: 50%;
+            position: absolute;
+            top: 120px;
+            padding: 20PX;
+            background-color: #00000052;
+        }
+        #home{
+       
+          margin-top: 200px;
+        }
+        #company_name{
+            margin-top: 150px;
+        }
+        #call{
+            background: rgb(221, 7, 50);
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            border-radius: 5px;
+        }
+        #info{
+            width: 100%;
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+     
+      <div ><h1>INTERTROPICS Security Services & Investigations</h1>
+        <p>Your Safety, Our Priority</p></div>
+        <div> <nav id="myNav">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#training">Training</a>
+            <a href="#contact">Contact</a>
+            <a href="#careers">Careers</a>
+        </nav></div>
+    </header>
+
+   
+
+    <div class="content">
+        <!-- Home Section -->
+        <section id="home" class="slideshow-container">
+            <div>  <img src="images/IMG-20240915-WA0017.jpg" alt="logo" id="logo"></div>
+            <h2 id="company_name">Welcome to INTERTROPICS</h2>
+            <div class="slides">
+             
+                <h2>Surveillance cameras</h2>
+                <img src="images/camera1.jpg" alt="Surveillance Image 1">
+            </div>
+            <div class="slides">
+                <h2>Electric fence</h2>
+                <img src="images/electric_fence.jpeg" alt="electric fence">
+            </div>
+            <div class="slides">
+                <h2>Security Guards on Patrol</h2>
+                <img src="images/360_F_776381706_hxWYIhHRDwbbyzXqdYhVO1w9cGwivryM.webp" alt="Security Guards on Patrol">
+            </div>
+            <div class="slides">
+                <h2>Event Security</h2>
+                <img src="images/360_F_955610949_eAlnn6VMEuQKV0uuuNy224ShbszQ4BcU.webp" alt="Event Security">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="service-section">
+            <h2>About Us</h2>
+            <p>INTERTROPICS Security Services & Investigations is a trusted leader in providing professional security solutions. Our comprehensive services include surveillance, disaster preparedness, private investigations, and more. We strive to ensure your safety and peace of mind with top-notch expertise and state-of-the-art technology.</p>
+
+            <!-- Mission and Vision -->
+            <h3>Our Mission</h3>
+            <p>To provide innovative, reliable, and professional security solutions that safeguard lives and property, ensuring peace of mind for all our clients.</p>
+
+            <h3>Our Vision</h3>
+            <p>To become the most trusted and reputable security services provider, setting the highest standards of safety and security in the region.</p>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="service-section">
+            <h2>Our Services</h2>
+
+            <article id="surveillance-cctv">
+                <h3>EyeWatch Surveillance & CCTV Installation</h3>
+                <p>Ensure complete oversight and protection of your premises with <strong>EyeWatch Surveillance & CCTV Installation</strong>. At INTERTROPICS, we specialize in the professional installation and monitoring of high-definition CCTV cameras that provide 24/7 surveillance.</p>
+                <img src="images/360_F_418662338_JgEQR1g5U7XHbQm6t85GAYCEymIr5lRE.webp" alt="Surveillance Installation" />
+            </article>
+
+            <article id="mobile-patrol">
+                <h3>Mobile Patrol Services</h3>
+                <p>Our mobile patrol services offer swift and flexible security solutions, ensuring constant surveillance across large areas. With a team of trained officers and rapid response vehicles, INTERTROPICS provides proactive protection, deterring threats before they happen.</p>
+                <img src="images/360_F_423294639_bz1L6e9lYBfjZdgi4lz3KnwHYWoB6KbY.webp" alt="Mobile Patrol" />
+            </article>
+
+            <article id="event-security">
+                <h3>Event Security Management</h3>
+                <p>Ensure the safety and success of your event with INTERTROPICS' expert event security management. Our professional team is trained to handle crowd control, access management, and emergency response, providing seamless protection for events of all sizes.</p>
+                <img src="images/360_F_955610949_eAlnn6VMEuQKV0uuuNy224ShbszQ4BcU.webp" alt="Event Security" />
+            </article>
+
+            <article id="disaster-response">
+                <h3>Disaster Response & Preparedness</h3>
+                <p>INTERTROPICS' disaster response and preparedness services equip your organization to handle emergencies with confidence. Our expert team provides rapid response, risk assessments, and strategic planning to minimize damage and protect lives during crises.</p>
+                <img src="images/360_F_911583211_nWTIhwCMiKRE8TH0An8Y4H3935i9uxTd.webp" alt="Disaster Response" />
+            </article>
+
+            <article id="security-guards">
+                <h3>Professional Security Guards</h3>
+                <p>Our team of <strong>Professional Security Guards</strong> is trained to deliver high-quality protection services. They are equipped with the skills needed to handle various security situations, including patrolling, monitoring, and responding to incidents swiftly and efficiently.</p>
+                <img src="images/360_F_499325882_fp6Sp6epv6Z3FdkuupVokOkQmsuLejXT.jpg" alt="Security Guards" />
+            </article>
+        </section>
+
+        <!-- Training Section -->
+        <section id="training" class="training-section">
+            <h2>Training Programs</h2>
+            
+            <article id="fire-marshal">
+                <h3>Fire Marshal Training</h3>
+                <p>Our Fire Marshal Training equips participants with essential skills to handle fire emergencies. From risk assessments to using fire-fighting equipment, our comprehensive program ensures you are prepared to safeguard lives and property in case of a fire.</p>
+            </article>
+
+            <article id="security-guard-training">
+                <h3>Security Guard Training</h3>
+                <p>We offer professional Security Guard Training to ensure our guards are equipped with the latest techniques in conflict resolution, crowd management, and emergency response. Our training guarantees effective and efficient security personnel for any situation.</p>
+            </article>
+        </section>
+
+        <!-- Contact Us Section -->
+        <section id="contact" class="contact-section">
+            <h2>Contact Us</h2>
+            <p>Address: 23 Othaya Road, Kileleshwa, Nairobi</p>
+            <iframe src="https://maps.google.com/maps?q=23%20Othaya%20Road,%20Kileleshwa,%20Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"></iframe>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="/submit-contact-form" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" onclick="return confirm('Confirm submission');">Send</button>
+                  
+                </form>
+              
+            </div>
+           <div id="info">
+            <h3>OR</h3>
+            <a href="tel:+254716035688" id="call">Call Us</a>
+            <h3>Email Address:</h3><p>info@intertropicssecurity.com</p>
+           </div>
+        </section>
+      
+        <!-- Careers Section -->
+        <section id="careers" class="career-section">
+            <h2>Careers</h2>
+            <p>We are always on the lookout for talented individuals to join our team. To apply for a position at INTERTROPICS, please ensure you meet the following requirements:</p>
+            <div class="requirements">
+                <ul>
+                    <li>Certificate of Good Conduct</li>
+                    <li>Valid ID</li>
+                    <li>Physically Fit</li>
+                    <li>Men aged between 28 to 42</li>
+                    <li>Women aged between 28 to 35</li>
+                </ul>
+            </div>
+            
+            <h3>Application Form</h3>
+            <div class="application-form">
+                <form action="/submit-application" method="post">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    
+                    <label for="resume">Resume/CV:</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required>
+                    
+                    <label for="cover-letter">Cover Letter:</label>
+                    <textarea id="cover-letter" name="cover-letter" rows="4" required></textarea>
+                    
+                    <button type="submit" onclick="return confirm('Confirm submission');">Apply Now</button>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 INTERTROPICS Security Services & Investigations. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("slides");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+                
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}
+            slides[slideIndex-1].style.display = "block";
+       
+            setTimeout(showSlides, 4000); // Change image every 2 seconds
+        }
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+        function scrollToSection(targetId) {
+            const targetSection = document.querySelector(targetId);
+            if (targetSection) {
+                window.scrollTo({
+                    top: targetSection.offsetTop,
+                    behavior: 'smooth'
+                });
+            }
+        }
+    
+        // Add click event listeners to the navigation links
+        const navLinks = document.querySelectorAll('#myNav a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function (event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href');
+                scrollToSection(targetId);
+            });
+        });
+        
+    </script>
+</body>
+</html>
